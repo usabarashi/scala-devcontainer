@@ -1,0 +1,22 @@
+{
+	"name": "Scala",
+	"dockerFile": "Dockerfile",
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"java.home": "/docker-java-home",
+		"files.watcherExclude": {
+			"**/target": true
+		},
+		"metals.javaHome": "/docker-java-home",
+		"metals.sbtScript": "/root/.local/share/coursier/bin/sbt",
+		"metals.scalafmtConfigPath": ".scalafmt.conf",
+		"metals.showImplicitArguments": true,
+		"metals.showImplicitConversionsAndClasses": true,
+		"metals.showInferredType": true,
+		"editor.acceptSuggestionOnEnter": "on"
+	},
+	"extensions": [
+		"vscjava.vscode-java-pack",
+		"scalameta.metals"
+	],
+}
