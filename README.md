@@ -1,4 +1,4 @@
-# Scala Dev Container
+# Scala devcontainer
 
 # Continuous build and test
 
