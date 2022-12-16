@@ -1,4 +1,4 @@
-FROM openjdk:19-jdk-bullseye
+FROM eclipse-temurin:19
 
 ARG USERNAME=vscode
 ARG USER_UID=1000
